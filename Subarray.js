@@ -1,3 +1,5 @@
+// write a function that takes an array of at least 2 integers and that returns an array  of the starting/ending indices of the smallest one and then sorts in order by ascending. Should return [-1, -1]
+
 function subarraySort(array) {
   let minOutofOrder = Infinity;
 	let maxOutofOrder = -Infinity;
